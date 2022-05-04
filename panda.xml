@@ -1,19 +1,19 @@
 <panda>
-    <asset>
-        <mesh name="link0" file="link0.obj" />
-        <mesh name="link1" file="link1.obj" />
-        <mesh name="link2" file="link2.obj" />
-        <mesh name="link3" file="link3.obj" />
-        <mesh name="link4" file="link4.obj" />
-        <mesh name="link5" file="link5.obj" />
-        <mesh name="link6" file="link6.obj" />
-        <mesh name="link7" file="link7.obj" />
-        <mesh name="hand" file="hand.obj" />
-        <mesh name="finger" file="finger.obj" />
-        <texture name="panda" file="panda.png" type="2d" />
-        <material name="panda" texture="panda" shininess=".4" specular=".4" />
-        <material name="panda_white" rgba="1 1 1 1" shininess="0.4" specular="0.4" />
-    </asset>
+  <asset>
+    <mesh name="link0" file="link0.obj" />
+    <mesh name="link1" file="link1.obj" />
+    <mesh name="link2" file="link2.obj" />
+    <mesh name="link3" file="link3.obj" />
+    <mesh name="link4" file="link4.obj" />
+    <mesh name="link5" file="link5.obj" />
+    <mesh name="link6" file="link6.obj" />
+    <mesh name="link7" file="link7.obj" />
+    <mesh name="hand" file="hand.obj" />
+    <mesh name="finger" file="finger.obj" />
+    <texture name="panda" file="panda.png" type="2d" />
+    <material name="panda" texture="panda" shininess=".4" specular=".4" />
+    <material name="panda_white" rgba="1 1 1 1" shininess="0.4" specular="0.4" />
+  </asset>
   <actuator>
     <motor ctrllimited="true" ctrlrange="-87 87" forcelimited="true" forcerange="-87 87" joint="panda_joint1" name="panda_joint1" />
     <motor ctrllimited="true" ctrlrange="-87 87" forcelimited="true" forcerange="-87 87" joint="panda_joint2" name="panda_joint2" />

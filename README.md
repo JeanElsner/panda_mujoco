@@ -12,3 +12,4 @@ Model of the Franka Emika Robot System (formerly known as Panda) for the MuJoCo 
   publisher={IEEE}
 }
 ```
+![panda_mujoco](demo.gif)
