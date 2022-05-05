@@ -117,16 +117,8 @@ class Demo:
 
     def start(self) -> None:
         step_thread = Thread(target=self.step)
-        step_thread.daemon = True
         step_thread.start()
-
         self.render()
-
-    def close(self) -> None:
-        glfw.terminate()
-
-    def __del__(self) -> None:
-        self.close()
 
 
 if __name__ == "__main__":
