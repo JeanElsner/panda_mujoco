@@ -1,4 +1,5 @@
-<panda>
+<mujoco model="panda">
+  <compiler angle="radian" meshdir="./mesh" texturedir="./texture" />
   <asset>
     <mesh name="link0" file="link0.obj" />
     <mesh name="link1" file="link1.obj" />
@@ -84,4 +85,4 @@
       </body>
     </body>
   </worldbody>
-</panda>
+</mujoco>
