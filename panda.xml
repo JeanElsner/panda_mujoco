@@ -48,7 +48,7 @@
               <joint name="panda_joint4" pos="0 0 0" axis="0 0 1" limited="true" range="-3.0718 -0.0698" damping="0.2257" frictionloss="0.3591" />
               <geom type="mesh" material="panda" mesh="link4" />
               <body name="panda_link5" pos="-0.0825 0.384 0" quat="0.707107 -0.707107 0 0">
-                <inertial pos="1.1953e-02 4.1065e-02 -3.8437e-02" mass="1.225946" fullinertia="3.5549e-02 2.9474e-02 8.6270e-03 -2.1170e-03 -4.0370e-03 2.2900e-04" />
+                <inertial pos="-1.1953e-02 4.1065e-02 -3.8437e-02" mass="1.225946" fullinertia="3.5549e-02 2.9474e-02 8.6270e-03 -2.1170e-03 -4.0370e-03 2.2900e-04" />
                 <joint name="panda_joint5" pos="0 0 0" axis="0 0 1" limited="true" range="-2.8973 2.8973" damping="0.1023" frictionloss="0.2669" />
                 <geom type="mesh" material="panda" mesh="link5" />
                 <body name="panda_link6" pos="0 0 0" quat="0.707107 0.707107 0 0">
